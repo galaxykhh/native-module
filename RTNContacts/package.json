@@ -1,0 +1,32 @@
+{
+    "name": "rtn-contacts",
+    "version": "0.0.1",
+    "description": "Contacts Turbo Native Modules",
+    "react-native": "js/index",
+    "source": "js/index",
+    "files": [
+        "js",
+        "android",
+        "ios",
+        "rtn-contacts.podspec",
+        "!android/build",
+        "!ios/build",
+        "!**/__tests__",
+        "!**/__fixtures__",
+        "!**/__mocks__"
+    ],
+    "keywords": [
+        "react-native",
+        "ios",
+        "android"
+    ],
+    "peerDependencies": {
+        "react": "*",
+        "react-native": "*"
+    },
+    "codegenConfig": {
+        "name": "RTNContactsSpec",
+        "type": "modules",
+        "jsSrcsDir": "spec"
+    }
+}

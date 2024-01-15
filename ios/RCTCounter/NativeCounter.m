@@ -14,3 +14,4 @@
   RCT_EXTERN_METHOD(increment)
   RCT_EXTERN_METHOD(decrement)
 @end
+
